@@ -1,0 +1,24 @@
+AMI USB Driver
+Generic Disk I/O Driver
+Partition Driver(MBR/GPT/El Torito)
+PCH Serial ATA Controller Initialization Driver
+TCP Network Service Driver
+UEFI PXE Base Code Driver
+DHCP Protocol Driver
+IP4 CONFIG Network Service Driver
+IP4 Network Service Driver
+MTFTP4 Network Service
+UDP Network Service Driver
+IP6 Network Service Driver
+UDP6 Network Service Driver
+DHCP6 Protocol Driver
+MTFTP6 Network Service Driver
+FAT File System Driver
+Intel(R) PRO/1000 6.0.24 PCI-E
+Realtek UEFI UNDI Driver
+
+
+Intel(R) 10GbE Driver 8.1.04 x64
+
+AMD GOP X64 Release Driver Rev.1.70.0.15.50.Jul 13 2020.23:42:33
+HFS File System Driver
