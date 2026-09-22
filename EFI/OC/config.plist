@@ -290,9 +290,9 @@
 				<key>BundlePath</key>
 				<string>VoodooHDA.kext</string>
 				<key>Comment</key>
-				<string>Enabled: Tahoe analog audio (no AppleHDA in macOS 26)</string>
+				<string>Moved to /Library/Extensions (prelink dep fails: IOAudioFamily not in boot kc)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooHDA</string>
 				<key>MaxKernel</key>
@@ -412,7 +412,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
@@ -435,13 +435,13 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483714</integer>
+			<integer>0</integer>
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -707,12 +707,12 @@
 				<string></string>
 				<key>Comment</key>
 				<string></string>
-			<key>Enabled</key>
-			<false/>
+				<key>Enabled</key>
+				<false/>
 				<key>LoadEarly</key>
-			<false/>
-			<key>Path</key>
-			<string>apfs_aligned.efi</string>
+				<false/>
+				<key>Path</key>
+				<string>apfs_aligned.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -749,6 +749,18 @@
 				<false/>
 				<key>Path</key>
 				<string>ResetNvramEntry.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
