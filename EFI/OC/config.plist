@@ -56,9 +56,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject HDEF for Intel 8c20 HD Audio (codec ALC897) for VoodooHDA</string>
+				<string>Native ALZA at 1b0000 already exists; duplicate HDEF injection removed</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-HDEF.aml</string>
 			</dict>
