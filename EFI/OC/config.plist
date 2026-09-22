@@ -54,6 +54,14 @@
 				<key>Path</key>
 				<string>SSDT-UNC.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Inject HDEF for Intel 8c20 HD Audio (codec ALC897) for VoodooHDA</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-HDEF.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
